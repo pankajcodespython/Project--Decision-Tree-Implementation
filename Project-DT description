@@ -1,0 +1,11 @@
+This project demonstrates the implementation of a Decision Tree classifier on the Iris dataset, one of the most popular datasets in machine learning. 
+The objective was to build a model that can accurately classify iris flowers into three species (Setosa, Versicolor, Virginica) based on their sepal and petal measurements.
+Project Workflow:
+Data Preprocessing – Loaded the Iris dataset, checked for missing values, and split the data into training and testing sets.
+Model Development – Implemented a Decision Tree classifier using Scikit-learn, experimenting with different criteria (Gini Index & Entropy) and hyperparameters (max depth, min samples split).
+Evaluation – Evaluated model accuracy using metrics such as confusion matrix, classification report, and cross-validation.
+Visualization – Plotted the Decision Tree to interpret decision paths and feature importance.
+Outcome:
+Achieved >95% accuracy in classifying iris species.
+Identified petal length and petal width as the most significant features in prediction.
+Demonstrated the interpretability and practical use of Decision Trees for classification problems.
